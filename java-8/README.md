@@ -5,7 +5,7 @@
 
 <p>Starting with Java 8, interfaces can have static and default methods that, despitebeing declared in an interface, have a defined behavior.</p>
 
-### Static Method
+#### Static Method
 <p>consider the following method of the interface.</p>
 
 ```java
@@ -23,7 +23,7 @@ String result = InterfaceName.helloStatic();
 ```
 
 
-### Default method 
+#### Default method 
 
 <p>Default methods are declared using the new default keyword. These are accessible through the instance of the implementing class and can be overridden.</p> 
 
@@ -184,6 +184,10 @@ String result = valueOpt.orElseThrow(CustomException::new).toUpperCase();
 
 
 Notice, that how and for what purpose to use Optional in your app is a serious and controversial design decision, and explanation of its all pros and cons is out of the scope of this article. If you are interested, you can dig deeper, there are plenty of interesting articles on the Internet devoted to this problem. This one and this another one could be very helpful.
+
+
+### Consumer Interface
+
 
 
 <div align="center">
